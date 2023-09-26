@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "build:dev": "npm run build -- --mode development",
+    "build:prod": "npm run build -- --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Isaac Rivera <developer@isaacrivera.com>",
@@ -16,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/izkrivera/react-boilerplate/issues"
   },
-  "homepage": "https://github.com/izkrivera/react-boilerplate#readme"
+  "homepage": "https://github.com/izkrivera/react-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
 }
