@@ -6,6 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "{\"name\": \"Isaac Rivera\", \"email\": \"developer@isaacrivera.com\"}",
-  "license": "MIT"
+  "author": "Isaac Rivera <developer@isaacrivera.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izkrivera/react-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/izkrivera/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/izkrivera/react-boilerplate#readme"
 }
