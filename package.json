@@ -9,8 +9,7 @@
     "dev:hot": "npm run dev -- --hot",
     "test": "jest --passWithNoTests",
     "lint": "eslint ./ --max-warnings 0",
-    "precommit": "lint-staged",
-    "prepare": "husky install"
+    "precommit": "lint-staged"
   },
   "lint-staged": {
     "./**/*.js": [
