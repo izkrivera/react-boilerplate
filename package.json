@@ -8,12 +8,18 @@
     "dev": "webpack-dev-server --config webpack.config.dev.js",
     "dev:hot": "npm run dev -- --hot",
     "test": "jest --passWithNoTests",
-    "lint": "eslint ./",
+    "lint": "eslint ./ --max-warnings 0",
+    "precommit": "lint-staged",
     "prepare": "husky install"
+  },
+  "lint-staged": {
+    "./**/*.js": [
+      "eslint"
+    ]
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "npm run precommit"
     }
   },
   "author": "Isaac Rivera <developer@isaacrivera.com>",
